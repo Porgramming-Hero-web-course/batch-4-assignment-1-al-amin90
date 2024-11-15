@@ -10,5 +10,3 @@ const countWordOccurrences = (str: string, value: string) : number => {
     });
     return count;
 }
-
-console.log(countWordOccurrences("I love typescript", "Typescript"));

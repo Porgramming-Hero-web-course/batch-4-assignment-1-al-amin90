@@ -9,9 +9,3 @@ interface Profile {
 const updateProfile = (obj:Profile, update: object) => {
     return {...obj, ...update}
 }
-
-const myProfile: Profile = { 
-    name: "Alice", 
-    age: 25, 
-    email: "alice@example.com" 
-};
